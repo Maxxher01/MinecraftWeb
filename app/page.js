@@ -17,17 +17,18 @@ export default function Home() {
           className="w-48 md:w-64 lg:w-80 mb-8"
         />
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-xl mb-8">
-          <Button asChild className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-            <Link href={customize.Discord} target="_blank" rel="noopener noreferrer">
-              Discord
-            </Link>
-          </Button>
-          <Button asChild className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-            <Link href={customize.Store} target="_blank" rel="noopener noreferrer">
-              Tienda
-            </Link>
-          </Button>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-xl mb-8 justify-center">
+            <Button asChild className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href={customize.Discord} target="_blank" rel="noopener noreferrer">
+                Discord
+              </Link>
+            </Button>
+            <Button asChild className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href={customize.Store} target="_blank" rel="noopener noreferrer">
+                Tienda
+              </Link>
+            </Button>
+          </div>
           {/*<Button asChild className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
             <Link href="/vote" target="_blank" rel="noopener noreferrer">
               Votos
