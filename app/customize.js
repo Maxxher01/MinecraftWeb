@@ -4,7 +4,7 @@ const customize = {
         Webtitle: "TerraRPG - Servidor Survival",
         Webdesc: "TerraRPG: El mejor servidor de Minecraft en Español estilo RPG  y con una comunidad amigable. Únete a nuestra experiencia de juego única y descubre emocionantes desafios.",
         Weburl: "https://terrarpg.net", //DON'T ADD SLASH AND THE END OF THE DOMAIN
-        Discord: "https://discord.terrarpg.net/",
+        Discord: "https://discord.gg/DBn9mT2Djk",
         Store: "https://tienda.terrarpg.net/",
         Webmap: "#",
         Ownernick: "maximiliano",
